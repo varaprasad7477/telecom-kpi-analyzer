@@ -1,0 +1,72 @@
+{
+  "data_source": "simulated educational data",
+  "thresholds": {
+    "drop": 2,
+    "latency": 50,
+    "throughput": 10,
+    "utilization": 85
+  },
+  "measurement_count": 8,
+  "cells": [
+    {
+      "cell_id": "CELL_A",
+      "technology": "4G",
+      "intervals": 2,
+      "call_attempts": 220,
+      "established_calls": 216,
+      "dropped_calls": 2,
+      "call_drop_pct": 0.9259259259259259,
+      "setup_success_pct": 98.18181818181819,
+      "avg_latency_ms": 27.5,
+      "throughput_mbps": 22.0,
+      "peak_utilization_pct": 50.0,
+      "alarms": "NONE",
+      "data_note": ""
+    },
+    {
+      "cell_id": "CELL_B",
+      "technology": "4G",
+      "intervals": 2,
+      "call_attempts": 300,
+      "established_calls": 270,
+      "dropped_calls": 17,
+      "call_drop_pct": 6.296296296296297,
+      "setup_success_pct": 90.0,
+      "avg_latency_ms": 85.0,
+      "throughput_mbps": 4.666666666666667,
+      "peak_utilization_pct": 96.0,
+      "alarms": "HIGH_CALL_DROP; HIGH_LATENCY; LOW_THROUGHPUT; HIGH_UTILIZATION",
+      "data_note": ""
+    },
+    {
+      "cell_id": "CELL_C",
+      "technology": "5G",
+      "intervals": 2,
+      "call_attempts": 350,
+      "established_calls": 348,
+      "dropped_calls": 2,
+      "call_drop_pct": 0.5747126436781609,
+      "setup_success_pct": 99.42857142857143,
+      "avg_latency_ms": 13.5,
+      "throughput_mbps": 110.0,
+      "peak_utilization_pct": 48.0,
+      "alarms": "NONE",
+      "data_note": ""
+    },
+    {
+      "cell_id": "CELL_D",
+      "technology": "5G",
+      "intervals": 2,
+      "call_attempts": 0,
+      "established_calls": 0,
+      "dropped_calls": 0,
+      "call_drop_pct": null,
+      "setup_success_pct": null,
+      "avg_latency_ms": 21.0,
+      "throughput_mbps": 14.0,
+      "peak_utilization_pct": 22.0,
+      "alarms": "NONE",
+      "data_note": "No established calls"
+    }
+  ]
+}
