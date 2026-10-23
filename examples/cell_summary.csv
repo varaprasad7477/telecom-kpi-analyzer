@@ -1,0 +1,5 @@
+cell_id,technology,intervals,call_attempts,established_calls,dropped_calls,call_drop_pct,setup_success_pct,avg_latency_ms,throughput_mbps,peak_utilization_pct,alarms,data_note
+CELL_A,4G,2,220,216,2,0.9259259259259259,98.18181818181819,27.5,22.0,50.0,NONE,
+CELL_B,4G,2,300,270,17,6.296296296296297,90.0,85.0,4.666666666666667,96.0,HIGH_CALL_DROP; HIGH_LATENCY; LOW_THROUGHPUT; HIGH_UTILIZATION,
+CELL_C,5G,2,350,348,2,0.5747126436781609,99.42857142857143,13.5,110.0,48.0,NONE,
+CELL_D,5G,2,0,0,0,,,21.0,14.0,22.0,NONE,No established calls
